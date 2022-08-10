@@ -61,13 +61,13 @@ To use with older versions of Node.js, we provide an ES5-compatible build throug
 
 <!-- tocstop -->
 
-## Usage
+## Usage :
 
 Read the **[GETTING STARTED](https://github.com/orbitdb/orbit-db/blob/master/GUIDE.md)** guide for a quick tutorial on how to use OrbitDB.
 
 For a more in-depth tutorial and exploration of OrbitDB's architecture, please check out the **[OrbitDB Field Manual](https://github.com/orbitdb/field-manual)**.
 
-### Database browser UI
+### Database browser UI :
 
 OrbitDB databases can easily be managed using a web UI, see **[OrbitDB Control Center](https://github.com/orbitdb/orbit-db-control-center)**.
 
@@ -79,7 +79,7 @@ cd orbit-db-control-center/
 npm i && npm start
 ```
 
-### Module with IPFS Instance
+### Module with IPFS Instance :
 
 If you're using `orbit-db` to develop **browser** or **Node.js** applications, use it as a module with the javascript instance of IPFS
 
@@ -117,7 +117,7 @@ const OrbitDB = require('orbit-db')
 })()
 ```
 
-### Module with IPFS Daemon
+### Module with IPFS Daemon :
 
 Alternatively, you can use [ipfs-http-client](https://www.npmjs.com/package/ipfs-http-client) to use `orbit-db` with a locally running IPFS daemon. Use this method if you're using `orbitd-db` to develop **backend** or **desktop** applications, eg. with [Electron](https://electron.atom.io).
 
